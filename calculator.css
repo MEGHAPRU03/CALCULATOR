@@ -1,0 +1,66 @@
+. {
+  margin: 15px;
+  padding: 15px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.body {
+  width: 100vw;
+}
+header {
+  text-align: center;
+  height: 35px;
+  width: 100vw;
+  font-size: 20px;
+  margin: 0px 5px 5px 5px;
+  padding: 0px 5px 5px 5px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.calcy {
+  height: 82vh;
+  width: 38vw;
+  background-color: rgb(214, 214, 214);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 4px; */
+  border-radius: 5px;
+}
+.cal1 {
+  height: 80vh;
+  width: 34vw;
+  margin: 4px;
+  border: 1px solid rgba(110, 96, 96, 0.808);
+  background-color: rgb(214, 214, 214);
+  border-radius: 5px;
+}
+.result {
+  padding: 8px;
+  margin: 1px;
+  box-sizing: border-box;
+}
+.text {
+  box-sizing: border-box;
+  font-size: 26px;
+  height: 9.999vh;
+  width: 31.99vw;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2px;
+}
+button {
+  margin: 2px;
+  height: 8.8vh;
+  flex: 28.9%;
+  font-size: medium;
+}
